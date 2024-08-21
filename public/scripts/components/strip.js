@@ -85,6 +85,7 @@ function generatePrepopulatedStrip(saveData) {
   /* let freeTextField = */ newStrip.querySelector('#notes').value = saveData.info.notes;
   /* let freeTextField = */ newStrip.querySelector('#route').value = saveData.info.route;
   /* let freeTextField = */ newStrip.querySelector('#flightplan').value = saveData.info.flightplan;
+  /* let freeTextField = */ newStrip.querySelector('#frequency').value = saveData.info.frequency;
 
   return newStrip;
 }
@@ -119,6 +120,7 @@ function generateStripFromLiveFlightplan(fpl, type) {
   // /* let freeTextField = */ newStrip.querySelector('#notes').value = fpl.notes;
   /* let freeTextField = */ newStrip.querySelector('#route').innerText = fpl.route;
   // /* let freeTextField = */ newStrip.querySelector('#flightplan').value = fpl.flightplan;
+  // /* let freeTextField = */ newStrip.querySelector('#frequency').value = fpl.frequency;
 
   return newStrip;
 }
