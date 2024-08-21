@@ -146,6 +146,15 @@
   max-height: 20px;
   width: fit-content;
 }
+select{
+  border:none;
+  padding: 2px 110px;
+  border-radius:5px;
+}
+
+select:focus{
+  outline:none;
+}
 
 [data-type="inbound"] .pdcButtonContainer,
 [data-type="vfr"] .pdcButtonContainer {
